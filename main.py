@@ -17,6 +17,6 @@ while True:
 
     speech = tts(user_input)
 
-    sf.write(f"./assets/out{time_stamp}.wav", speech, 22050)
+    sf.write(f"./out{time_stamp}.wav", speech, 22050)
 
-    playsound(f'./assets/out{time_stamp}.wav')
+    playsound(f'./out{time_stamp}.wav')
